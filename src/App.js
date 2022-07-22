@@ -1,22 +1,23 @@
-import {Route} from 'react-router-dom';
-import Welcome from './pages/Welcome';
+  import {Route} from 'react-router-dom';
+  import Welcome from './pages/Welcome';
 
-import Products from './pages/Products';
-import MainHeader from './Components/MainHeader';
-function App() {
-  return (
-    <div>
-      <MainHeader />
-     <Route path="/Welcome">
+  import Products from './pages/Products';
+  import MainHeader from './Components/MainHeader';
 
-    <Welcome/>
-     </Route>
-     <Route path="/Products">
+  function App() {
+    return (
+      <div>
+        <MainHeader />
+      <Route path="/Welcome">
 
-      <Products/>
+      <Welcome/>
       </Route>
-    </div>
-  );
-}
+      <Route path="/Products">
 
-export default App;
+        <Products/>
+        </Route>
+      </div>
+    );
+  }
+
+  export default App;
