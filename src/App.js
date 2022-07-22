@@ -7,14 +7,17 @@
   function App() {
     return (
       <div>
+        
         <MainHeader />
-      <Route path="/Welcome">
+        <main>
+      <Route path="/welcome">
        <Welcome/>
       </Route>
 
-      <Route path="/Products">
+      <Route path="/products">
        <Products/>
         </Route>
+        </main>
       </div>
       
     );
