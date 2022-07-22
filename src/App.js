@@ -9,12 +9,11 @@
       <div>
         <MainHeader />
       <Route path="/Welcome">
-
-      <Welcome/>
+       <Welcome/>
       </Route>
-      <Route path="/Products">
 
-        <Products/>
+      <Route path="/Products">
+       <Products/>
         </Route>
       </div>
       
