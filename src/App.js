@@ -16,13 +16,15 @@
        <Welcome/>
       </Route>
 
-      <Route path="/Products">
+      <Route path ='/Products/:productId'>
+          <ProductDetails/>
+        </Route>
+
+      <Route path="/Products" exact>
        <Products/>
         </Route>
 
-        <Route path ='/Products/:productId'>
-          <ProductDetails/>
-        </Route>
+
         </Switch>
         </main>
       </div>
