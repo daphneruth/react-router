@@ -1,7 +1,7 @@
 const Welcome =()=>{
-return <h1>The Welcome Page
+return <section> <h1>The Welcome Page
     
 </h1>
-
+</section>
 }
 export default Welcome;
