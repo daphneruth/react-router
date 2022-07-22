@@ -1,5 +1,5 @@
         import { NavLink } from "react-router-dom";
-        import classes from './MainHeader.module.css';
+        import classes from './MainHeader.module.css'
 
         const MainHeader = () =>
         {

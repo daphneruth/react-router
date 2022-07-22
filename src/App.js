@@ -19,7 +19,7 @@
        <Products/>
         </Route>
 
-        <Route path ='/product-details'>
+        <Route path ='/product-details/:product-id'>
           <ProductDetails/>
         </Route>
         </main>
