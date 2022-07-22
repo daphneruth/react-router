@@ -7,13 +7,13 @@
         <nav>
             <ul>
                 <li>
-                    <NavLink activeClassName={classes.active} to ="/welcome">
+                    <NavLink activeClassName={classes.active} to ="/Welcome">
                         Welcome
                         </NavLink>
                 </li>
 
                 <li>
-                <NavLink activeClassName={classes.active} to ="/products">
+                <NavLink activeClassName={classes.active} to ="/Products">
                     Products
                     </NavLink> 
                 </li>

@@ -10,11 +10,11 @@
         
         <MainHeader />
         <main>
-      <Route path="/welcome">
+      <Route path="/Welcome">
        <Welcome/>
       </Route>
 
-      <Route path="/products">
+      <Route path="/Products">
        <Products/>
         </Route>
         </main>
