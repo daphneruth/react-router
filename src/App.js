@@ -1,5 +1,6 @@
   import {Route} from 'react-router-dom';
   import Welcome from './pages/Welcome';
+  import ProductDetails from './pages/ProductDetails'
 
   import Products from './pages/Products';
   import MainHeader from './Components/MainHeader';
@@ -16,6 +17,10 @@
 
       <Route path="/Products">
        <Products/>
+        </Route>
+
+        <Route path ='/product-details'>
+          <ProductDetails/>
         </Route>
         </main>
       </div>
